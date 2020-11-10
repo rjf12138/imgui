@@ -17,8 +17,8 @@
 	"头文件目录列表":[
 		"./inc/"
 	],
-	"当前生成文件类型":"exe",
-	"当前程序入口文件":"",
+	"当前生成文件类型":"static_lib",
+	"当前程序入口文件":"imgui_demo.cpp",
 	"当前编译器":"g++",
 	"源文件目录列表":[
 		"./src/",
@@ -37,5 +37,5 @@
 	],
 	"项目UUID":"60a609b1-aa36-40fe-bc7f-decc62b7bfb0",
 	"项目名称":"imgui",
-	"项目路径":"/home/workspace/tmp"
+	"项目路径":"/home/ruanjian/workspace/project_pre/imgui"
 }
