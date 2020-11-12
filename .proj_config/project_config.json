@@ -5,12 +5,13 @@
 		"gmock_main",
 		"gtest",
 		"gtest_main",
-		"pthread",
 		"GL",
 		"glfw3",
 		"X11",
 		"Xrandr",
-		"Xi"
+		"Xi",
+		"dl",
+		"pthread"
 	],
 	"release版编译选项":"#-O0 -Wall -std=c++11",
 	"release静态库列表":[
@@ -23,14 +24,14 @@
 		"./inc/"
 	],
 	"当前生成文件类型":"exe",
-	"当前程序入口文件":"opengl_test.cc",
+	"当前程序入口文件":"imgui_test.cc",
 	"当前编译器":"g++",
 	"源文件目录列表":[
 		"./src/",
-		"./main/"
+		"./main/",
+		"./glad/"
 	],
 	"程序入口文件列表":[
-		"imgui_demo.cpp",
 		"imgui_test.cc",
 		"opengl_test.cc"
 	],
